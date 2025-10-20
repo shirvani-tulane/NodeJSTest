@@ -1,5 +1,7 @@
-def print_fib(n):
+def fibonacci(n):
+    result = []
     a, b = 0, 1
     for _ in range(n):
-        print(a)
+        result.append(a)
         a, b = b, a + b
+    return result
